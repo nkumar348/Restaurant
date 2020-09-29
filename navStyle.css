@@ -1,25 +1,68 @@
+body{
+  background-image: url("background3.jpg");
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
 #topNav{
-  padding: 5px;
+     padding-top: 6px;
+     height: 50px;
+     margin: 0px;
+     background-color: #007a99;
+     border-bottom: 2px solid black;
+     overflow: hidden;
+     border-radius: 1px;
+  }
+
+  #topNav li{
+      padding-right: 8px;
+      display: inline;
+      float: right;
+      text-decoration: none;
+      /*border-right: 2px solid black;*/
+  }
+
+
+#topNav li a:hover{
+  background-color: #5cd6d6;
 }
 
-#topNav li{
+
+  #topNav li a{
+     text-decoration: none;
+     font-family: Verdana, Arial, Helvetica, sans-serif;
+     font-size: 20px;
+     color: white;
+     display: block;
+     text-align: center;
+     padding: 14px 16px;
+  }
+
+  #menuNav{
+    height: 100%;
+    width: 130px;
+    margin: 0px;
+    background-color: #ff0000;
+    border-right: 2px solid black;
+    float: left;
+    z-index: -999; /*negative z-index pushes an tag/element to the background*/
+    padding: 0;
+    border-bottom: 2px solid black;
+    border-radius: 1px;
+  }
+
+#menuNav li{
+  padding-top: 10px;
+  list-style: none;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  color: LemonChiffon;
+}
+
+#menuNav li a{
+  display: block;
+  color: white;
+  padding: 8px 16px;
   text-decoration: none;
-  display: inline;
-  padding-right: 8px;
-  float: right;
 }
 
-#topNav li:hover{
-  background-color: coral;
-}
-
-#topNav li a{
-  text-decoration: none;
-  font-family: monospace;
-  font-size: 20px
-  color: #ffcc33;
-}
-
-li{
-  color: black;
+#menuNav li a:hover{
+  background-color: #ff5c33;
 }
