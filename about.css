@@ -1,0 +1,47 @@
+body{
+  background-image: url("background.png");
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.button{
+  position: relative;
+  background-color: Salmon;
+  border: outset;
+  font-size: 20px;
+  color: black;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  border-color: maroon;
+
+  border-radius: 4px;
+}
+
+.button:after {
+  content: "";
+  background: white;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px!important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+.button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s;
+}
+
+body{
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
