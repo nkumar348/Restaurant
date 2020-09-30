@@ -1,7 +1,9 @@
 body{
-  background-image: url("background.png");
+  background-image: url("background3.jpg");
   font-family: Verdana, Arial, Helvetica, sans-serif;
 }
+
+/* trying out ripple effect on button */
 
 .button{
   position: relative;
