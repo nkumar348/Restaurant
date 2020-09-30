@@ -1,0 +1,10 @@
+body{
+  text-align: center;
+  background-image: url(background.png);
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+ul{
+  list-style-type: none;
+  padding: inherit;
+}
