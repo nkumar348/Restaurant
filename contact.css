@@ -2,3 +2,17 @@ body{
   background-image: url("background.png");
   font-family: Verdana, Arial, Helvetica, sans-serif;
 }
+input[type=text],input[type=email], select, textarea {
+  width: 70%;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+input[type=submit] {
+  padding: 12px 20px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
